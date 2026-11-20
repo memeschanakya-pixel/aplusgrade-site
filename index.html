@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A+ Grade – Download the Student App</title>
+<meta name="description" content="Download the A+ Grade Android app and take your tests securely, anywhere.">
+<meta name="theme-color" content="#101827">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23101827'/%3E%3Ctext x='8' y='46' font-size='34' font-weight='800' fill='white' font-family='Arial'%3EA%3C/text%3E%3Ctext x='34' y='36' font-size='28' font-weight='800' fill='%23FBBF24' font-family='Arial'%3E+%3C/text%3E%3C/svg%3E">
+<style>
+:root{--bg:#101827;--bg2:#0b1120;--card:#172236;--line:#26344d;--y:#FBBF24;--t:#fff;--m:#9aa8c0}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,"SF Pro Display",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--t);line-height:1.6;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1120px;margin:0 auto;padding:0 22px}
+/* nav */
+nav{position:sticky;top:0;z-index:20;background:rgba(16,24,39,.82);backdrop-filter:blur(14px);border-bottom:1px solid rgba(255,255,255,.06)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:68px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:19px;letter-spacing:.3px}
+.brand svg{width:38px;height:38px}
+.links{display:flex;align-items:center;gap:26px;font-size:14.5px;color:var(--m)}
+.links a:hover{color:var(--t)}
+.btn{display:inline-flex;align-items:center;gap:10px;background:var(--y);color:#1a1300;font-weight:700;padding:14px 26px;border-radius:14px;font-size:16px;box-shadow:0 10px 30px -8px rgba(251,191,36,.55);transition:.2s;border:0;cursor:pointer}
+.btn:hover{transform:translateY(-2px);box-shadow:0 16px 36px -8px rgba(251,191,36,.7)}
+.btn.sm{padding:9px 18px;font-size:14px;border-radius:11px;box-shadow:none}
+.btn.ghost{background:transparent;color:var(--t);border:1px solid var(--line);box-shadow:none}
+.btn.ghost:hover{border-color:var(--y);color:var(--y)}
+/* hero */
+.hero{position:relative;padding:84px 0 90px}
+.hero:before{content:"";position:absolute;width:640px;height:640px;right:-120px;top:-60px;background:radial-gradient(circle,rgba(251,191,36,.2),transparent 68%);pointer-events:none}
+.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:50px;align-items:center;position:relative}
+.pill{display:inline-flex;gap:8px;align-items:center;border:1px solid var(--line);background:rgba(255,255,255,.04);padding:6px 14px;border-radius:99px;font-size:13px;color:var(--m);margin-bottom:22px}
+.pill i{width:8px;height:8px;border-radius:50%;background:#34d399;box-shadow:0 0 0 4px rgba(52,211,153,.2)}
+h1{font-size:clamp(38px,5.6vw,64px);line-height:1.06;font-weight:800;letter-spacing:-1.5px}
+h1 em{font-style:normal;color:var(--y)}
+.lead{font-size:18px;color:var(--m);margin:22px 0 34px;max-width:520px}
+.cta{display:flex;flex-wrap:wrap;gap:14px;align-items:center}
+.meta{margin-top:20px;font-size:13.5px;color:var(--m);display:flex;flex-wrap:wrap;gap:8px 22px}
+.meta b{color:var(--t);font-weight:600}
+#iosnote{display:none;margin-top:16px;padding:12px 16px;border:1px solid var(--line);border-radius:12px;font-size:14px;color:var(--m);background:rgba(255,255,255,.03)}
+/* phone */
+.phone{width:290px;height:580px;margin:0 auto;border-radius:44px;background:#05080f;padding:11px;box-shadow:0 40px 80px -20px rgba(0,0,0,.7),0 0 0 2px #2a3750,0 0 80px -10px rgba(251,191,36,.25);animation:float 6s ease-in-out infinite;position:relative}
+.screen{height:100%;border-radius:34px;background:radial-gradient(circle at 50% 30%,#1c2a45,var(--bg));display:flex;flex-direction:column;align-items:center;justify-content:center;overflow:hidden;position:relative}
+.screen:after{content:"";position:absolute;inset:-40% auto -40% -60%;width:40%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.1),transparent);transform:rotate(12deg);animation:shine 5s ease-in-out infinite}
+.notch{position:absolute;top:20px;left:50%;transform:translateX(-50%);width:84px;height:22px;background:#05080f;border-radius:20px;z-index:3}
+.screen svg{width:190px;height:190px;filter:drop-shadow(0 0 30px rgba(251,191,36,.3))}
+.screen strong{font-size:22px;letter-spacing:2px;margin-top:-18px}
+.screen span{width:44px;height:3px;border-radius:2px;background:var(--y);margin-top:12px}
+@keyframes float{50%{transform:translateY(-14px)}}
+@keyframes shine{0%,55%{left:-60%}100%{left:130%}}
+/* sections */
+section{padding:84px 0}
+.eyebrow{color:var(--y);font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase}
+h2{font-size:clamp(28px,3.8vw,42px);line-height:1.15;letter-spacing:-.8px;margin:10px 0 14px}
+.sub{color:var(--m);max-width:560px;font-size:17px}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:44px}
+.card{background:linear-gradient(180deg,var(--card),#131d30);border:1px solid var(--line);border-radius:20px;padding:26px;transition:.25s}
+.card:hover{transform:translateY(-6px);border-color:rgba(251,191,36,.5)}
+.ico{width:46px;height:46px;border-radius:13px;background:rgba(251,191,36,.12);color:var(--y);display:grid;place-items:center;margin-bottom:18px}
+.ico svg{width:23px;height:23px}
+.card h3{font-size:17px;margin-bottom:6px}
+.card p{font-size:14.5px;color:var(--m)}
+.alt{background:var(--bg2);border-block:1px solid rgba(255,255,255,.05)}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:44px;counter-reset:s}
+.step{position:relative;padding:26px;border-radius:20px;border:1px dashed var(--line)}
+.step:before{counter-increment:s;content:counter(s);display:grid;place-items:center;width:38px;height:38px;border-radius:50%;background:var(--y);color:#1a1300;font-weight:800;margin-bottom:16px}
+.step h3{font-size:17px;margin-bottom:6px}.step p{font-size:14.5px;color:var(--m)}
+.tip{margin-top:26px;padding:16px 20px;border-radius:14px;background:rgba(251,191,36,.08);border:1px solid rgba(251,191,36,.3);font-size:14.5px;color:#f3dca0}
+details{border:1px solid var(--line);border-radius:16px;padding:18px 22px;margin-top:12px;background:var(--card)}
+summary{cursor:pointer;font-weight:600;list-style:none;display:flex;justify-content:space-between;gap:12px}
+summary:after{content:"+";color:var(--y);font-size:22px;line-height:1}
+details[open] summary:after{content:"–"}
+details p{color:var(--m);margin-top:10px;font-size:15px}
+.final{text-align:center;padding:90px 0}
+.final .box{border-radius:28px;padding:64px 24px;border:1px solid var(--line);background:radial-gradient(circle at 50% 0%,rgba(251,191,36,.18),transparent 60%),var(--card)}
+.final .btn{margin-top:26px}
+footer{padding:34px 0;border-top:1px solid rgba(255,255,255,.06);color:var(--m);font-size:14px}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px}
+.rv{opacity:0;transform:translateY(24px);transition:.7s}.rv.on{opacity:1;transform:none}
+@media(max-width:900px){.hero .wrap{grid-template-columns:1fr;text-align:center}.lead{margin-inline:auto}.cta,.meta{justify-content:center}.grid,.steps{grid-template-columns:1fr 1fr}.links a:not(.btn){display:none}.hero{padding-top:50px}}
+@media(max-width:560px){.grid,.steps{grid-template-columns:1fr}.phone{transform:scale(.9)}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+
+<!-- Reusable logo (A + the yellow plus) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="logo" viewBox="120 125 220 180"><g fill="none" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"><path d="M145 281L187 151L229 281M157 247H217" stroke="#fff"/><path d="M231 198.5H310M270.5 159V238" stroke="#FBBF24"/></g></symbol>
+</defs></svg>
+
+<nav><div class="wrap">
+  <a href="#top" class="brand"><svg><use href="#logo"/></svg>A+ Grade</a>
+  <div class="links"><a href="#features">Features</a><a href="#install">How to install</a><a href="#faq">FAQ</a><a class="btn sm" data-apk href="#">Download</a></div>
+</div></nav>
+
+<header class="hero" id="top"><div class="wrap">
+  <div>
+    <div class="pill"><i></i> Official student app · Android</div>
+    <h1>Your tests. <em>Secure.</em><br>Right in your pocket.</h1>
+    <p class="lead">The official A+ Grade app lets you attempt your tests in a focused, protected environment — and picks up exactly where you left off if anything interrupts you.</p>
+    <div class="cta">
+      <a class="btn" data-apk href="#"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-5-5m5 5l5-5M4 20h16"/></svg>Download for Android</a>
+      <a class="btn ghost" href="#install">How to install</a>
+    </div>
+    <div class="meta"><span>Version <b id="ver">1.2</b></span><span>Size <b id="size">~5 MB</b></span><span>Free for A+ Grade students</span></div>
+    <div id="iosnote">You seem to be on an iPhone. This app is for <b>Android</b> phones — please open this page on an Android phone to install it.</div>
+  </div>
+  <div class="phone"><div class="notch"></div><div class="screen"><svg><use href="#logo"/></svg><strong>A+ Grade</strong><span></span></div></div>
+</div></header>
+
+<section id="features" class="alt"><div class="wrap">
+  <div class="eyebrow rv">Why the app</div>
+  <h2 class="rv">Built for fair, distraction-free exams.</h2>
+  <p class="sub rv">Everything runs inside one focused screen, so you can concentrate on the paper — not on notifications.</p>
+  <div class="grid">
+    <div class="card rv"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 018 0v4"/></svg></div><h3>Locked test mode</h3><p>Screen stays pinned to the test, with screenshots and screen recording blocked.</p></div>
+    <div class="card rv"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8a6 6 0 10-12 0c0 7-3 9-3 9h18s-3-2-3-9M13.7 21a2 2 0 01-3.4 0M3 3l18 18"/></svg></div><h3>No interruptions</h3><p>Do Not Disturb switches on automatically, then restores itself when you submit.</p></div>
+    <div class="card rv"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 109-9 9 9 0 00-6.4 2.6L3 8M3 3v5h5M12 7v5l3 2"/></svg></div><h3>Resume anytime</h3><p>Phone hung or app closed? Reopen and continue the same attempt — your timer and answers are safe.</p></div>
+    <div class="card rv"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h8l-1 8 10-12h-8z"/></svg></div><h3>Light &amp; fast</h3><p>A small download that opens quickly, even on budget phones.</p></div>
+  </div>
+</div></section>
+
+<section id="install"><div class="wrap">
+  <div class="eyebrow rv">Install in a minute</div>
+  <h2 class="rv">Four easy steps.</h2>
+  <div class="steps">
+    <div class="step rv"><h3>Download</h3><p>Tap the yellow Download button on this page.</p></div>
+    <div class="step rv"><h3>Open the file</h3><p>Open <b>A-Plus-Grade.apk</b> from your notifications or Downloads folder.</p></div>
+    <div class="step rv"><h3>Allow install</h3><p>If asked, allow “Install unknown apps” for your browser or Files app.</p></div>
+    <div class="step rv"><h3>Open &amp; start</h3><p>Tap Install, open A+ Grade and enter your details to begin.</p></div>
+  </div>
+  <div class="tip rv">If Google Play Protect shows a warning, tap <b>“More details” → “Install anyway”</b>. The app is shared directly by A+ Grade instead of the Play Store.</div>
+</div></section>
+
+<section id="faq" class="alt"><div class="wrap" style="max-width:780px">
+  <div class="eyebrow rv">FAQ</div>
+  <h2 class="rv">Good to know.</h2>
+  <details class="rv"><summary>Does it work on iPhone?</summary><p>Not yet. The app is for Android phones only.</p></details>
+  <details class="rv"><summary>I already have the old app. What now?</summary><p>Just install the new file over it. If your phone says “App not installed”, uninstall the old app first and install again.</p></details>
+  <details class="rv"><summary>Why is screen pinning asked?</summary><p>Pinning keeps you on the test screen. Tap “Got it” on the pop-up. If it doesn’t appear, turn on “Screen pinning” in your phone’s Settings.</p></details>
+  <details class="rv"><summary>My phone hung during a test. Did I lose it?</summary><p>No. Reopen the app and your attempt resumes with the original timer.</p></details>
+  <details class="rv"><summary>Is it free?</summary><p>Yes, it’s free for A+ Grade students.</p></details>
+</div></section>
+
+<section class="final"><div class="wrap"><div class="box rv">
+  <svg width="86" height="72"><use href="#logo"/></svg>
+  <h2>Ready for your next test?</h2>
+  <p class="sub" style="margin:0 auto">Get the app now and be set before the exam starts.</p>
+  <a class="btn" data-apk href="#">Download A+ Grade</a>
+</div></div></section>
+
+<footer><div class="wrap"><span>© <span id="yr"></span> A+ Grade. All rights reserved.</span><span>Android app · v<span id="ver2">1.2</span></span></div></footer>
+
+<script>
+/* ====== EDIT THESE THREE LINES ====== */
+const APK_URL = "A-Plus-Grade.apk";   // put the APK in the same folder as this file (or paste a full link)
+const VERSION = "1.2";
+const SIZE    = "~5 MB";               // check the real file size and update
+/* ==================================== */
+document.querySelectorAll("[data-apk]").forEach(a=>{a.href=APK_URL;a.setAttribute("download","A-Plus-Grade.apk")});
+document.getElementById("ver").textContent=VERSION;document.getElementById("ver2").textContent=VERSION;
+document.getElementById("size").textContent=SIZE;document.getElementById("yr").textContent=new Date().getFullYear();
+if(/iPhone|iPad|iPod/i.test(navigator.userAgent))document.getElementById("iosnote").style.display="block";
+const io=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting){x.target.classList.add("on");io.unobserve(x.target)}}),{threshold:.12});
+document.querySelectorAll(".rv").forEach((el,i)=>{el.style.transitionDelay=(i%4)*70+"ms";io.observe(el)});
+</script>
+</body>
+</html>
